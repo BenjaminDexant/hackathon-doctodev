@@ -1,18 +1,21 @@
 import React from "react";
+import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
-function Result(props) {
+const Results = (props) => {
   return (
     <Card>
-      <Card.Header>Pays</Card.Header>
+      <Card.Header>{props.name}</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title>{props.categorie}</Card.Title>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+          <div>{props.description}</div>
+          <div>{props.price}</div>
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Plus d'info</Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default Result;
+export default Results;
