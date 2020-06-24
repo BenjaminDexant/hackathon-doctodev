@@ -72,7 +72,7 @@ export default function FormRearch() {
           <InputGroup>
             <AlgoliaPlaces
               type="text"
-              placeholder='Pays...'
+              placeholder='Votre pays...'
               options={{
                 appId: process.env.algoliaID,
                 apiKey: process.env.algoliaKey,
