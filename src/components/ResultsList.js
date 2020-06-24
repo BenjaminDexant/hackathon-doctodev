@@ -6,25 +6,25 @@ import ResultsOrigin from "./ResultsOrigin.jsx";
 
 const resultSample = [
   {
-    categorie: "Categorie : Soins dentaires",
+    categorie: "Soins dentaires",
     name: "Espagne",
-    description: "Type de soin : Couronne dentaire céramique + métal",
-    price: "Prix : dès 290 € *hors transport, logement et remboursement*",
+    description: "Couronne dentaire céramique + métal",
+    price: "dès 290 € *hors transport, logement et remboursement*",
   },
   {
-    categorie: "Categorie : Soins dentaires",
+    categorie: "Soins dentaires",
     name: "Hongrie",
-    description: "Type de soin : Couronne dentaire céramique + métal",
-    price: "Prix : 225 € *hors transport, logement et remboursement*",
+    description: "Couronne dentaire céramique + métal",
+    price: "225 € *hors transport, logement et remboursement*",
   },
 ];
 
 const originSample = 
   {
-    categorie: "Categorie : Soins dentaires",
-    name: "Votre pays : France",
-    description: "Type de soin : Couronne dentaire céramique + métal",
-    price: "Prix : 700 – 900 € *hors remboursement*",
+    categorie: "Soins dentaires",
+    name: "France",
+    description: "Couronne dentaire céramique + métal",
+    price: "700 – 900 € *hors remboursement*",
   };
 
 const ResultsList = () => {
