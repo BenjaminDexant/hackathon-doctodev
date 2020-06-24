@@ -1,16 +1,16 @@
-import React from 'react';
-import Image from 'react-bootstrap/Image'
-import './Header.css';
+import React from "react";
+import { Container, Jumbotron } from "react-bootstrap";
+import "./Header.css";
 
-
-function Header() {
+export default function Header() {
   return (
-
+    <>
+      <Jumbotron className="header" fluid>
+        <Container>
+          <h1>DoctoTour</h1>
+          <p>Santé pour tous où que vous soyez!</p>
+        </Container>
+      </Jumbotron>
+    </>
   );
 }
-
-export default Header;
-
-
-
-
