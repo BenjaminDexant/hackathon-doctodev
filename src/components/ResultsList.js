@@ -1,5 +1,7 @@
 import React from "react";
 import Results from "./Results.jsx";
+import { Alert } from 'react-bootstrap';
+
 
 const resultSample = [
   {
@@ -20,14 +22,19 @@ const resultSample = [
 const ResultsList = () => {
   return (
     <div className="container">
-      {resultSample.map((country) => (
+      {resultSample.length > 0
+      ?
+      resultSample.map((country) => (
         <Results
           categorie={country.categorie}
           name={country.name}
           description={country.description}
           price={country.price}
         />
-      ))}
+      ))
+      :<Alert key={1} variant={'dark'}>
+        Aucun resultat pour votre recherche...
+      </Alert>}
     </div>
   );
 };
