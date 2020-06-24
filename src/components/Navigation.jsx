@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import MediaQuery from 'react-responsive'
+import MediaQuery from 'react-responsive';
 
 export default function Navigation() {
   return(
