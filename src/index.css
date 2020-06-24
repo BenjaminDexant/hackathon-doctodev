@@ -9,11 +9,12 @@ body {
 *{
   box-sizing: border-box;
 }
-
 .container{
   width: 95%;
 }
-
+label{
+  margin: 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

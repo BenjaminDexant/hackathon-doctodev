@@ -1,0 +1,29 @@
+
+.formMail{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.inputMail{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 15px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ced4da;
+}
+.envoieMail{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 11px 15px;
+  border-radius: 0px 5px 5px 0;
+  position: absolute;
+  border: none;
+  background: #007BFF;
+  color: rgb(237,237,247);
+  cursor: pointer;
+  bottom: 0;
+}
+.containerButtonEnvoieMail{
+  position: relative;
+}

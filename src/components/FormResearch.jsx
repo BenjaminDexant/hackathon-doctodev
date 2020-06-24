@@ -4,7 +4,7 @@ import AlgoliaPlaces from 'algolia-places-react';
 import '../style/form.css'
 
 
-export default function FormRearch() {
+export default function FormResearch() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
