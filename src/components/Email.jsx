@@ -48,7 +48,7 @@ export default function Email(){
     <form className="formMail container" onSubmit={sendEmail}>
       <div>
         <label htmlFor="mail">
-          <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="mail" value={mail} name="mail" required/>
+          <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
         </label>
       </div>
       <div className="containerButtonEnvoieMail">
