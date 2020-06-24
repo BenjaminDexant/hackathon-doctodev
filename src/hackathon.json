@@ -3,23 +3,20 @@
         "Soins_dentaires": {
             "Espagne": {
                 "price": 100,
-                "localisation": {
-                    1
+                "localisation": 1,
+                "Hongrie": {
+                    "price": 50
                 }
             },
-            "Hongrie": {
-                "price": 50
-            }
-        },
-        "Chirurgie_laser_yeux": {
-            "Espagne": {
-                "price": 1000
-            }
-        },
-        "Chirurgie_plastique": {
-            "Espagne": {
-                "price": 40000000
+            "Chirurgie_laser_yeux": {
+                "Espagne": {
+                    "price": 1000
+                }
+            },
+            "Chirurgie_plastique": {
+                "Espagne": {
+                    "price": 4000
+                }
             }
         }
     }
-}

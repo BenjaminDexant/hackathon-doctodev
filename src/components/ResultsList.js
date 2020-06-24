@@ -19,7 +19,7 @@ const resultSample = [
 
 const ResultsList = () => {
   return (
-    <div>
+    <div className="container">
       {resultSample.map((country) => (
         <Results
           categorie={country.categorie}
