@@ -32,7 +32,7 @@ const ResultsList = () => {
           price={country.price}
         />
       ))
-      :<Alert key={1} variant={'dark'}>
+      :<Alert key={1} variant={'danger'}>
         Aucun resultat pour votre recherche...
       </Alert>}
     </div>
