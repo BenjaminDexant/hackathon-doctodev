@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <Jumbotron className="header" fluid>
         <Container>
-          <h1>DoctoTour</h1>
+          <img src="./img/logo.png" alt="logo HealthCare Trip" width="200px"></img>
           <p>Santé pour tous où que vous soyez!</p>
         </Container>
       </Jumbotron>
