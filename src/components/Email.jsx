@@ -52,7 +52,7 @@ export default function Email(){
         </label>
       </div>
       <div className="containerButtonEnvoieMail">
-        <button className="envoieMail" type="submit">Envoyé</button>
+        <button className="envoieMail" type="submit">Envoyer</button>
       </div>
       <NotificationContainer/>
     </form>
