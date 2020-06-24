@@ -1,5 +1,5 @@
 import React from "react";
-import Results from "./Results";
+import Results from "./Results.jsx";
 
 const resultSample = [
   {
@@ -19,7 +19,7 @@ const resultSample = [
 
 const ResultsList = () => {
   return (
-    <div>
+    <div className="container">
       {resultSample.map((country) => (
         <Results
           categorie={country.categorie}
