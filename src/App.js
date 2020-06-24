@@ -4,6 +4,7 @@ import Home from "./Home";
 import Infos from "./Infos";
 import "./App.css";
 import Navigation from "./components/Navigation";
+require('dotenv').config()
 
 function App() {
   return (

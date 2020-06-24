@@ -1,43 +1,48 @@
 import React from "react";
-import Results from "./Results";
-import ResultsOrigin from "./ResultsOrigin";
+import Results from "./Results.jsx";
+import { Alert } from 'react-bootstrap';
+import ResultsOrigin from "./ResultsOrigin.jsx";
+
 
 const resultSample = [
   {
-    categorie: "Soins dentaires",
+    categorie: "Categorie : Soins dentaires",
     name: "Espagne",
-    description: "Salchichon sangria !",
-    price: "pas cher",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : dès 290 € *hors transport, logement et remboursement*",
   },
   {
-    categorie: "Soins dentaires",
+    categorie: "Categorie : Soins dentaires",
     name: "Hongrie",
-    description: "Stew and birra",
-    price: "encore moins cher",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : 225 € *hors transport, logement et remboursement*",
   },
 ];
 
 const originSample = 
   {
-    categorie: "Soins dentaires",
-    name: "France",
-    description: "Boeuf bourguignon",
-    price: "Tres cher",
+    categorie: "Categorie : Soins dentaires",
+    name: "Votre pays : France",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : 700 – 900 € *hors remboursement*",
   };
 
 const ResultsList = () => {
   return (
-    <div>
-      <div>
-        {resultSample.map((country) => (
-          <Results
-            categorie={country.categorie}
-            name={country.name}
-            description={country.description}
-            price={country.price}
-          />
-        ))}
-      </div>
+    <div className="container">
+      {resultSample.length > 0
+      ?
+      resultSample.map((country) => (
+        <Results
+          categorie={country.categorie}
+          name={country.name}
+          description={country.description}
+          price={country.price}
+        />
+      ))
+      :<Alert key={1} variant={'danger'}>
+        Aucun resultat pour votre recherche...
+      </Alert>}
       <div>
         <ResultsOrigin
           categorie={originSample.categorie}
