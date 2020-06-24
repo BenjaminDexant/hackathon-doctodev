@@ -1,0 +1,12 @@
+.ap-input, .ap-hint{
+  border-radius: 0;
+  padding-top:0;
+  padding-bottom:0;
+  height: 38px; 
+}
+.form-group{
+  margin:  0 0 25px 0;
+}
+.input-group:nth-last-child(1) > div{
+  margin-left:auto;
+}
