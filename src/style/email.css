@@ -27,3 +27,36 @@
 .containerButtonEnvoieMail{
   position: relative;
 }
+
+/*************************************************/
+/*****************Responsive part*****************/
+/*************************************************/
+
+@media screen and (max-width:768px){
+  .formMail{
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  .inputMail{
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da;
+  }
+  .envoieMail{
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 15px;
+    border-radius: 0px 5px 5px 0;
+    position: absolute;
+    border: none;
+    background: #007BFF;
+    color: rgb(237,237,247);
+    cursor: pointer;
+    bottom: 0;
+  }
+  .containerButtonEnvoieMail{
+    position: relative;
+  }
+}
