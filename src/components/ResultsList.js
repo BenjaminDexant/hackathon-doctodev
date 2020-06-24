@@ -1,23 +1,31 @@
 import React from "react";
 import Results from "./Results.jsx";
 import { Alert } from 'react-bootstrap';
+import ResultsOrigin from "./ResultsOrigin.jsx";
 
 
 const resultSample = [
   {
-    categorie: 'Soins dentaires',
-    name: 'Espagne',
-    description: 'Salchichon sangria !',
-    price: 'pas cher'
+    categorie: "Categorie : Soins dentaires",
+    name: "Espagne",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : dès 290 € *hors transport, logement et remboursement*",
   },
   {
-    categorie: 'Soins dentaires',
-    name: 'Hongrie',
-    description: 'Stew and birra',
-    price: 'encore moins cher'
-  }
+    categorie: "Categorie : Soins dentaires",
+    name: "Hongrie",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : 225 € *hors transport, logement et remboursement*",
+  },
 ];
 
+const originSample = 
+  {
+    categorie: "Categorie : Soins dentaires",
+    name: "Votre pays : France",
+    description: "Type de soin : Couronne dentaire céramique + métal",
+    price: "Prix : 700 – 900 € *hors remboursement*",
+  };
 
 const ResultsList = () => {
   return (
@@ -35,6 +43,14 @@ const ResultsList = () => {
       :<Alert key={1} variant={'danger'}>
         Aucun resultat pour votre recherche...
       </Alert>}
+      <div>
+        <ResultsOrigin
+          categorie={originSample.categorie}
+          name={originSample.name}
+          description={originSample.description}
+          price={originSample.price}
+        />
+      </div>
     </div>
   );
 };
