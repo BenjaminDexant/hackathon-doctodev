@@ -4,5 +4,10 @@
   background-position: center;
 }
 .jumbotron {
-  min-height: 750px;
+  min-height: 100px;
+}
+
+.Slogan {
+  font-size: 10px;
+  color:#00aeef;
 }
