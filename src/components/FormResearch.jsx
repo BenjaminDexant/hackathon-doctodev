@@ -55,7 +55,7 @@ export default function FormRearch() {
         <Form.Group md="4" controlId="validationCustom02">
           <InputGroup>
             <InputGroup.Prepend>
-              <InputGroup.Text id="inputGroupPrepend">Votre emplacement</InputGroup.Text>
+              <InputGroup.Text id="inputGroupPrepend">Votre pays</InputGroup.Text>
             </InputGroup.Prepend>
             <AlgoliaPlaces
               type="text"
