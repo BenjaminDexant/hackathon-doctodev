@@ -6,8 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 95%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*************************************************/
+/*****************Responsive part*****************/
+/*************************************************/
+
+@media screen and (min-width:768px){
+  .container{
+    width: 50%;
+  }
 }
