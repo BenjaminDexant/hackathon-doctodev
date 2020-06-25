@@ -2,10 +2,11 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "../style/results.css";
 
 const ResultsOrigin = (props) => {
   return (
-    <Card>
+    <Card className="resultsOriginCard">
       <Card.Header>Votre pays : {props.name}</Card.Header>
       <Card.Body>
         <Card.Title>Categorie : {props.categorie}</Card.Title>
