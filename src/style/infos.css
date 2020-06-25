@@ -1,8 +1,15 @@
 .containerInfos {
-  margin-top: 40px;
+  margin: 10px auto;
   background-color: ghostwhite;
   text-align: left;
-  border-radius: 20px;
+  border-radius: 0 0 5px 5px ;
+  border: 1px solid #ececec;
+}
+.containerInfos h1{
+  margin: 20px 0
+}
+.containerInfos h2{
+  margin: 15px 0
 }
 
 .image {
