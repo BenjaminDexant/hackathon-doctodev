@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ResultsList from './components/ResultsList';
 import FormResearch from './components/FormResearch';
 import Title from './components/Title';
-import Email from './components/Email';
 
 const Home = () => {
   const [InfoReasearch, setInfoReasearch] = useState([]);
@@ -14,7 +13,6 @@ const Home = () => {
         <ResultsList InfoReasearch={InfoReasearch} />
       :""
       }
-      <Email/>
     </div>
   );
 };
