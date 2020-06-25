@@ -1,109 +1,117 @@
 {
-    "categorie": {
-        "soins_dentaires": {
-            "type_de_soin": {
-                "pose_implant_dentaire": {
-                    "Espagne": {
-                        "prixOperation": 100,
-                        "localisation": {
-                            "lng": 54.15,
-                            "lat": 17.95685
-                        },
-                        "prixTransport": 900,
-                        "prixHebergement": 150,
-                        "qualite": 50,
-                        "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-                        "descriptif": "infos..."
-                    },
-                    "Etat-Unis": {
-                        "prixOperation": 10000,
-                        "localisation": {
-                            "lng": 54.15,
-                            "lat": 17.95685
-                        },
-                        "prixTransport": 900,
-                        "prixHebergement": 150,
-                        "qualite": 75,
-                        "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-                        "descriptif": "infos..."
-                    },
-                    "Roumanie": {
-                        "price": 800,
-                        "localisation": {
-                            "lng": 54.15,
-                            "lat": 17.95685
-                        },
-                        "prixTransport": 900,
-                        "prixHebergement": 150,
-                        "qualite": 40,
-                        "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
-                        "descriptif": "infos..."
-                    },
-                    "France": {
-                        "price": 1000,
-                        "localisation": {
-                            "lng": 54.15,
-                            "lat": 17.95685
-                        },
-                        "prixTransport": 900,
-                        "prixHebergement": 150,
-                        "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-                        "qualite": 70,
-                        "descriptif": "infos..."
-                    }
-                }
+  "categorie": {
+    "soins_dentaires": {
+      "type_de_soin": {
+        "pose_implant_dentaire": {
+          "Espagne": {
+            "prixOperation": 100,
+            "localisation": {
+              "lat": 2.32462,
+              "lng": 41.48625
             },
-            "pose_prothèse_dentaire": {
-                "Espagne": {
-                    "prixOperation": 100,
-                    "localisation": {
-                        "lng": 54.15,
-                        "lat": 17.95685
-                    },
-                    "prixTransport": 900,
-                    "prixHebergement": 150,
-                    "qualite": 50,
-                    "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-                    "descriptif": "infos..."
-                },
-                "Etat-Unis": {
-                    "prixOperation": 10000,
-                    "localisation": {
-                        "lng": 54.15,
-                        "lat": 17.95685
-                    },
-                    "prixTransport": 900,
-                    "prixHebergement": 150,
-                    "qualite": 75,
-                    "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-                    "descriptif": "infos..."
-                },
-                "Roumanie": {
-                    "price": 800,
-                    "localisation": {
-                        "lng": 54.15,
-                        "lat": 17.95685
-                    },
-                    "prixTransport": 900,
-                    "prixHebergement": 150,
-                    "qualite": 40,
-                    "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
-                    "descriptif": "infos..."
-                },
-                "France": {
-                    "price": 1000,
-                    "localisation": {
-                        "lng": 54.15,
-                        "lat": 17.95685
-                    },
-                    "prixTransport": 900,
-                    "prixHebergement": 150,
-                    "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-                    "qualite": 70,
-                    "descriptif": "infos..."
-                }
-            }
+            "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 60,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "infos..."
+          },
+          "Etat-Unis": {
+            "prixOperation": 10000,
+            "localisation": {
+              "lng": -73.98813,
+              "lat": 40.72569
+            },
+            "cliniqueName": "Perfect Dental Care",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 90,
+            "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
+            "descriptif": "infos..."
+          },
+          "Roumanie": {
+            "price": 800,
+            "localisation": {
+              "lat": 44.85492,
+              "lng": 24.86229
+            },
+            "cliniqueName": "Medical Tours Company",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 40,
+            "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
+            "descriptif": "infos..."
+          },
+          "France": {
+            "price": 1000,
+            "localisation": {
+              "lat": 43.60767,
+              "lng": 1.47378
+            },
+            "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "qualite": 70,
+            "descriptif": "infos..."
+          }
         },
-        "Chirurgie_plastique": {}
-    }
+        "pose_prothèse_dentaire": {
+          "Espagne": {
+            "prixOperation": 500,
+            "localisation": {
+              "lat": 2.32462,
+              "lng": 41.48625
+            },
+            "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 60,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "infos..."
+          },
+          "Etat-Unis": {
+            "prixOperation": 5000,
+            "localisation": {
+              "lng": -73.98813,
+              "lat": 40.72569
+            },
+            "cliniqueName": "Perfect Dental Care",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 90,
+            "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
+            "descriptif": "infos..."
+          },
+          "Roumanie": {
+            "price": 600,
+            "localisation": {
+              "lat": 44.85492,
+              "lng": 24.86229
+            },
+            "cliniqueName": "Medical Tours Company",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 40,
+            "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
+            "descriptif": "infos..."
+          },
+          "France": {
+            "price": 800,
+            "localisation": {
+              "lat": 43.60767,
+              "lng": 1.47378
+            },
+            "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "qualite": 70,
+            "descriptif": "infos..."
+          }
+        }
+      }
+    },
+    "TEST":"blah"
+  }
 }

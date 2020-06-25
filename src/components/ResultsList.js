@@ -2,42 +2,34 @@ import React from "react";
 import Results from "./Results.jsx";
 import { Alert } from 'react-bootstrap';
 import ResultsOrigin from "./ResultsOrigin.jsx";
+import hackathon from '../hackathon.json';
 
-
-const resultSample = [
-  {
-    categorie: "Soins dentaires",
-    name: "Espagne",
-    description: "Couronne dentaire céramique + métal",
-    price: "dès 290 € *hors transport, logement et remboursement*",
-  },
-  {
-    categorie: "Soins dentaires",
-    name: "Hongrie",
-    description: "Couronne dentaire céramique + métal",
-    price: "225 € *hors transport, logement et remboursement*",
-  },
-];
-
-const originSample = 
-  {
-    categorie: "Soins dentaires",
-    name: "France",
-    description: "Couronne dentaire céramique + métal",
-    price: "700 – 900 € *hors remboursement*",
-  };
 
 const ResultsList = () => {
+  const paysOrigin = "France";
+  const categ = "soins_dentaires";
+  const typeDeSoin = "pose_implant_dentaire";
+
+  let allData = Object.entries(hackathon.categorie);
+  allData = allData.filter(el => el[0] === categ)[0];
+
+  let healthType = Object.entries(allData[1].type_de_soin);
+  healthType = healthType.filter(el => el[0] === typeDeSoin)[0];
+  console.log(healthType)
+
+  let originalCountry = Object.entries(healthType[1]);
+  originalCountry = originalCountry.filter(el => el[0] === paysOrigin)[0];
+  console.log(originalCountry)
   return (
     <div className="container">
-      {resultSample.length > 0
+      {allData.length > 0
       ?
-      resultSample.map((country) => (
+      allData.map(data => (
         <Results
-          categorie={country.categorie}
-          name={country.name}
-          description={country.description}
-          price={country.price}
+          categorie={data.categorie}
+          name={data.name}
+          description={data.description}
+          price={data.prixOperation}
         />
       ))
       :<Alert key={1} variant={'danger'}>
@@ -45,10 +37,10 @@ const ResultsList = () => {
       </Alert>}
       <div>
         <ResultsOrigin
-          categorie={originSample.categorie}
-          name={originSample.name}
-          description={originSample.description}
-          price={originSample.price}
+          categorie={originalCountry.categorie}
+          name={originalCountry.name}
+          description={originalCountry.description}
+          price={originalCountry.price}
         />
       </div>
     </div>
