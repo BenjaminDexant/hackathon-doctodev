@@ -19,7 +19,7 @@ const InfoCountry = () => {
       <p>Ville : {myCountry.city}</p>
       <p>Nom de la clinique : {myCountry.cliniqueName}</p>
       <p>Docteur/Chirurgien : {myCountry.doctor}</p>
-      <p>Notation : {myCountry.qualite}/100</p>
+      <p>Qualité des soins : {myCountry.qualite}/100</p>
       <p>{myCountry.descriptif}</p>
       <p>{myCountry.intro}</p>
       <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
