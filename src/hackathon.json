@@ -13,6 +13,8 @@
               "lng": 2.32462
             },
             "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
+            "doctor": "D San José",
+            "city": "Barcelone",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 60,
@@ -29,6 +31,8 @@
               "lat": 40.72569
             },
             "cliniqueName": "Perfect Dental Care",
+            "doctor": "D John Smith",
+            "city": "New-York",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
@@ -45,6 +49,8 @@
               "lng": 24.86229
             },
             "cliniqueName": "Medical Tours Company",
+            "doctor": "D Ian Nebuneshkou",
+            "city": "Bucarest",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 40,
@@ -61,6 +67,8 @@
               "lng": 1.47378
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
+            "doctor": "D Alexandrina Marin",
+            "city": "Toulouse",
             "prixTransport": 900,
             "prixHebergement": 150,
             "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
@@ -72,13 +80,15 @@
           "Espagne": {
             "flag": "🇪🇸",
             "type": "Soins dentaires",
-            "soins": "Pose d'implant dentaire",
+            "soins": "Pose d'une prothèse dentaire",
             "price": "500€",
             "localisation": {
               "lat": 2.32462,
               "lng": 41.48625
             },
             "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
+            "doctor": "D San José",
+            "city": "Barcelone",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 60,
@@ -88,13 +98,15 @@
           "Etat-Unis": {
             "flag": "🇺🇲",
             "type": "Soins dentaires",
-            "soins": "Pose d'implant dentaire",
+            "soins": "Pose d'une prothèse dentaire",
             "prixOperation": "5000€",
             "localisation": {
               "lng": -73.98813,
               "lat": 40.72569
             },
             "cliniqueName": "Perfect Dental Care",
+            "doctor": "D John Smith",
+            "city": "New-York",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
@@ -104,13 +116,15 @@
           "Roumanie": {
             "flag": "🇹🇩",
             "type": "Soins dentaires",
-            "soins": "Pose d'implant dentaire",
+            "soins": "Pose d'une prothèse dentaire",
             "price": "600€",
             "localisation": {
               "lat": 44.85492,
               "lng": 24.86229
             },
             "cliniqueName": "Medical Tours Company",
+            "doctor": "D Ian Nebuneshkou",
+            "city": "Bucarest",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 40,
@@ -120,13 +134,15 @@
           "France": {
             "flag":"🇫🇷",
             "type": "Soins dentaires",
-            "soins": "Pose d'implant dentaire",
+            "soins": "Pose d'une prothèse dentaire",
             "price": "800€",
             "localisation": {
               "lat": 43.60767,
               "lng": 1.47378
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
+            "doctor": "D Alexandrina Marin",
+            "city": "Toulouse",
             "prixTransport": 900,
             "prixHebergement": 150,
             "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
