@@ -6,10 +6,10 @@
           "Espagne": {
             "prixOperation": 100,
             "localisation": {
-                "lat": 2.324620,
-                "lng": 41.486250
+              "lat": 2.32462,
+              "lng": 41.48625
             },
-            "cliniqueName":"Clinique Dentaire El Cedro Barcelone",
+            "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 60,
@@ -19,10 +19,10 @@
           "Etat-Unis": {
             "prixOperation": 10000,
             "localisation": {
-                "lng": -73.988130,
-                "lat": 40.725690
+              "lng": -73.98813,
+              "lat": 40.72569
             },
-            "cliniqueName":"Perfect Dental Care",
+            "cliniqueName": "Perfect Dental Care",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
@@ -32,10 +32,10 @@
           "Roumanie": {
             "price": 800,
             "localisation": {
-                "lat": 44.854920,
-                "lng": 24.862290
+              "lat": 44.85492,
+              "lng": 24.86229
             },
-            "cliniqueName":"Medical Tours Company",
+            "cliniqueName": "Medical Tours Company",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 40,
@@ -45,8 +45,8 @@
           "France": {
             "price": 1000,
             "localisation": {
-                "lat": 43.607670,
-                "lng": 1.473780
+              "lat": 43.60767,
+              "lng": 1.47378
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
             "prixTransport": 900,
@@ -60,10 +60,10 @@
           "Espagne": {
             "prixOperation": 500,
             "localisation": {
-                "lat": 2.324620,
-                "lng": 41.486250
+              "lat": 2.32462,
+              "lng": 41.48625
             },
-            "cliniqueName":"Clinique Dentaire El Cedro Barcelone",
+            "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 60,
@@ -73,10 +73,10 @@
           "Etat-Unis": {
             "prixOperation": 5000,
             "localisation": {
-                "lng": -73.988130,
-                "lat": 40.725690
+              "lng": -73.98813,
+              "lat": 40.72569
             },
-            "cliniqueName":"Perfect Dental Care",
+            "cliniqueName": "Perfect Dental Care",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
@@ -86,10 +86,10 @@
           "Roumanie": {
             "price": 600,
             "localisation": {
-                "lat": 44.854920,
-                "lng": 24.862290
+              "lat": 44.85492,
+              "lng": 24.86229
             },
-            "cliniqueName":"Medical Tours Company",
+            "cliniqueName": "Medical Tours Company",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 40,
@@ -99,8 +99,8 @@
           "France": {
             "price": 800,
             "localisation": {
-                "lat": 43.607670,
-                "lng": 1.473780
+              "lat": 43.60767,
+              "lng": 1.47378
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
             "prixTransport": 900,
@@ -111,6 +111,7 @@
           }
         }
       }
-    }
+    },
+    "TEST":"blah"
   }
 }
