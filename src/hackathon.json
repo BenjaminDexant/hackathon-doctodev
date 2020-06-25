@@ -4,10 +4,12 @@
       "type_de_soin": {
         "pose_implant_dentaire": {
           "Espagne": {
-            "prixOperation": 100,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "100€",
             "localisation": {
-              "lat": 2.32462,
-              "lng": 41.48625
+              "lat": 41.48625,
+              "lng": 2.32462
             },
             "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
             "prixTransport": 900,
@@ -17,7 +19,9 @@
             "descriptif": "infos..."
           },
           "Etat-Unis": {
-            "prixOperation": 10000,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "10000€",
             "localisation": {
               "lng": -73.98813,
               "lat": 40.72569
@@ -30,7 +34,9 @@
             "descriptif": "infos..."
           },
           "Roumanie": {
-            "price": 800,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "800€",
             "localisation": {
               "lat": 44.85492,
               "lng": 24.86229
@@ -43,7 +49,9 @@
             "descriptif": "infos..."
           },
           "France": {
-            "price": 1000,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "1000€",
             "localisation": {
               "lat": 43.60767,
               "lng": 1.47378
@@ -58,7 +66,9 @@
         },
         "pose_prothèse_dentaire": {
           "Espagne": {
-            "prixOperation": 500,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "500€",
             "localisation": {
               "lat": 2.32462,
               "lng": 41.48625
@@ -71,7 +81,9 @@
             "descriptif": "infos..."
           },
           "Etat-Unis": {
-            "prixOperation": 5000,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "prixOperation": "5000€",
             "localisation": {
               "lng": -73.98813,
               "lat": 40.72569
@@ -84,7 +96,9 @@
             "descriptif": "infos..."
           },
           "Roumanie": {
-            "price": 600,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "600€",
             "localisation": {
               "lat": 44.85492,
               "lng": 24.86229
@@ -97,7 +111,9 @@
             "descriptif": "infos..."
           },
           "France": {
-            "price": 800,
+            "type": "Soins dentaires",
+            "soins": "Pose d'implant dentaire",
+            "price": "800€",
             "localisation": {
               "lat": 43.60767,
               "lng": 1.47378

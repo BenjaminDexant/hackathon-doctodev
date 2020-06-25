@@ -4,7 +4,6 @@ import { Alert } from 'react-bootstrap';
 import ResultsOrigin from "./ResultsOrigin.jsx";
 import hackathon from '../hackathon.json';
 
-
 const ResultsList = () => {
   const paysOrigin = "France";
   const categ = "soins_dentaires";
@@ -15,21 +14,21 @@ const ResultsList = () => {
 
   let healthType = Object.entries(allData[1].type_de_soin);
   healthType = healthType.filter(el => el[0] === typeDeSoin)[0];
-  console.log(healthType)
+  healthType = Object.entries(healthType[1])
+  
+  let originalCountry = healthType.filter(el => el[0] === paysOrigin)[0];
+  healthType = healthType.filter(el => el[0] !== paysOrigin)
 
-  let originalCountry = Object.entries(healthType[1]);
-  originalCountry = originalCountry.filter(el => el[0] === paysOrigin)[0];
-  console.log(originalCountry)
   return (
     <div className="container">
-      {allData.length > 0
+      {healthType.length > 0
       ?
-      allData.map(data => (
+      healthType.map(data => (
         <Results
-          categorie={data.categorie}
-          name={data.name}
-          description={data.description}
-          price={data.prixOperation}
+          categorie={data[1].type}
+          name={data[0]}
+          description={data[1].soins}
+          price={data[1].price}
         />
       ))
       :<Alert key={1} variant={'danger'}>
@@ -37,10 +36,10 @@ const ResultsList = () => {
       </Alert>}
       <div>
         <ResultsOrigin
-          categorie={originalCountry.categorie}
-          name={originalCountry.name}
-          description={originalCountry.description}
-          price={originalCountry.price}
+          categorie={originalCountry[1].type}
+          name={originalCountry[0]}
+          description={originalCountry[1].soins}
+          price={originalCountry[1].price}
         />
       </div>
     </div>
