@@ -7,13 +7,13 @@ import hackathon from '../hackathon.json';
 const ResultsList = () => {
   const paysOrigin = "France";
   const categ = "soins_dentaires";
-  const typeDeSoin = "pose_implant_dentaire";
+  const typeDeSoin = "Pose_d'un_implant_dentaire";
 
   let allData = Object.entries(hackathon.categorie);
-  allData = allData.filter(el => el[0] === categ)[0];
+  allData = allData.filter(el => el[0].toUpperCase() === categ.toUpperCase())[0];
 
   let healthType = Object.entries(allData[1].type_de_soin);
-  healthType = healthType.filter(el => el[0] === typeDeSoin)[0];
+  healthType = healthType.filter(el => el[0].toUpperCase() === typeDeSoin.toUpperCase())[0];
   healthType = Object.entries(healthType[1])
   
   let originalCountry = healthType.filter(el => el[0] === paysOrigin)[0];

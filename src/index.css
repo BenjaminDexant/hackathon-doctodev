@@ -19,6 +19,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn-primary{
+  background-color: #17B5EF!important;
+  border:none;
+}
 
 /*************************************************/
 /*****************Responsive part*****************/
