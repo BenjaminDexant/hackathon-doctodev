@@ -7,7 +7,7 @@ import hackathon from '../hackathon.json';
 const ResultsList = () => {
   const paysOrigin = "France";
   const categ = "soins_dentaires";
-  const typeDeSoin = "pose_implant_dentaire";
+  const typeDeSoin = "pose_d'un_implant_dentaire";
 
   let allData = Object.entries(hackathon.categorie);
   allData = allData.filter(el => el[0] === categ)[0];
