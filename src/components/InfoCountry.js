@@ -1,21 +1,29 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-
+import "../style/infos.css";
 
 const InfoCountry = () => {
-  const myCountry = JSON.parse(localStorage.getItem('Country'));
-  console.log(myCountry);
+  const myCountry = JSON.parse(localStorage.getItem("Country"));
   return (
-    <Card>
-      <Card.Header>{myCountry.name}</Card.Header>
-      <Card.Body>
-        <Card.Title>Categorie : {myCountry.categorie}</Card.Title>
-        <Card.Text>
-          <div>Type de soin : {myCountry.description}</div>
-          <div>Prix : {myCountry.price}</div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
+    <div className="container containerInfos" >
+      <h1>
+        {myCountry.nameCountry} {myCountry.flag}
+      </h1>
+      <img
+        className="image"
+        src={myCountry.url_img_pays}
+        alt={myCountry.nameCountry}
+      />
+      <h2>{myCountry.type}</h2>
+      <p>Prestation : {myCountry.soins}</p>
+      <p>Prix (brut*) : {myCountry.price}</p>
+      <p>Ville : {myCountry.city}</p>
+      <p>Nom de la clinique : {myCountry.cliniqueName}</p>
+      <p>Docteur/Chirurgien : {myCountry.doctor}</p>
+      <p>Notation : {myCountry.qualite}/100</p>
+      <p>{myCountry.descriptif}</p>
+      <p>{myCountry.intro}</p>
+      <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
+    </div>
   );
 };
 

@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .header {
-  background-image: url("../img/image-home.jpg");
+  background-image: url("../img/image-home3.jpg");
+  background-position: center;
   background-size: cover;
-  background-position: bottom;
+
 }
 .jumbotron {
   min-height: 500px;
 }
 
 .Slogan {
-  font-size: 1rem;
-  color:#00aeef;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color:#0583F2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .Slogan {
+    font-size: 1rem;
+  }
+  .jumbotron {
+    min-height: 350px;
+  }
+  .header img{
+    width: 190px;
+
+  }
 }

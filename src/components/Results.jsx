@@ -2,21 +2,34 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import "../style/results.css";
 
 const Results = (props) => {
-  console.log(props);
   return (
-    <Card>
-      <Card.Header>{props.name}</Card.Header>
+    <Card className="resultsCard">
+      <Card.Header>
+        {props.nameCountry} {props.flag}
+      </Card.Header>
       <Card.Body>
-        <Card.Title>Categorie : {props.categorie}</Card.Title>
+        <Card.Title>Categorie : {props.type}</Card.Title>
+        <Card.Text>Type de soin : {props.soins}</Card.Text>
+        <Card.Text>Notation : {props.qualite}/100</Card.Text>
         <Card.Text>
-          <div>Type de soin : {props.description}</div>
-          <div>Prix : {props.price}</div>
+          Prix (brut) : {props.price}
+          <p className="italicMessage">
+            * Tarif de la prestation seule, hors transport et logement.
+          </p>
         </Card.Text>
         <Link to="/Infos">
-          <Button variant="primary" onClick={() => localStorage.setItem('Country', JSON.stringify(props))}>Plus d'infos</Button>
+          <Button
+            variant="primary"
+            onClick={() =>
+              localStorage.setItem("Country", JSON.stringify(props))
+            }
+            style={{ marginTop: "24px" }}
+          >
+            Plus d'infos
+          </Button>
         </Link>
       </Card.Body>
     </Card>
