@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans&display=swap');
+
 .header {
   background-image: url("../img/image-home11.jpg");
   background-size: cover;
   background-position: bottom;
 }
 .jumbotron {
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .Slogan {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color:#0583F2;
-  font-family: 'baskerville';
+  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
 }
