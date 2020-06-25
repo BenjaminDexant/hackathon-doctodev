@@ -1,0 +1,11 @@
+.containerInfos {
+  margin-top: 40px;
+  background-color: ghostwhite;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

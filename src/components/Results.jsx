@@ -7,12 +7,19 @@ import "../style/results.css";
 const Results = (props) => {
   return (
     <Card className="resultsCard">
-      <Card.Header>{props.name}</Card.Header>
+      <Card.Header>
+        {props.nameCountry} {props.flag}
+      </Card.Header>
       <Card.Body>
-        <Card.Title>Categorie : {props.categorie}</Card.Title>
+        <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>
-          <div>Type de soin : {props.description}</div>
-          <div>Prix : {props.price}</div>
+          Type de soin : {props.soins}
+        </Card.Text>
+        <Card.Text>
+          Notation : {props.qualite}/100
+        </Card.Text>
+        <Card.Text>
+          Prix (brut) : {props.price}
         </Card.Text>
         <Link to="/Infos">
           <Button
@@ -20,6 +27,7 @@ const Results = (props) => {
             onClick={() =>
               localStorage.setItem("Country", JSON.stringify(props))
             }
+            style={{marginTop: "24px"}}
           >
             Plus d'infos
           </Button>

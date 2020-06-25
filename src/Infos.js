@@ -1,15 +1,14 @@
-import React from 'react';
-import InfoCountry from './components/InfoCountry';
-import SimpleExample from './components/Map';
+import React from "react";
+import InfoCountry from "./components/InfoCountry";
+import Maps from "./components/Maps";
 
 const Infos = () => {
-    return (
-        <div>
-            <h1>Page info</h1>
-            <InfoCountry />
-            <SimpleExample />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Maps />
+      <InfoCountry />
+    </div>
+  );
+};
 
 export default Infos;
