@@ -7,13 +7,15 @@ const app = express();
 const buildPath = path.join(__dirname, '..', 'build');
 app.use(express.json());
 app.use(express.static(buildPath));
+
 app.post('/send', (req, res) => {
   try{
     const mailOptions = { 
       from: process.env.email,
       to: req.body.email,
       subject: "Voici quelque info sur ta peut-être futur destination",
-      text: "Hi !\r\n\nThanks for following our IFTTT!\r\n\nYou will now receive a new work of art every weeks !"
+      text: "Hi !\r\n\nThanks for following our IFTTT!\r\n\nYou will now receive a new work of art every weeks !",
+      //template: "index"
     }
     transporter.sendMail(mailOptions, function(err, info){
       if (err){
