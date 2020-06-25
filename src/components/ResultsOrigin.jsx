@@ -1,16 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const ResultsOrigin = (props) => {
-  const [country, setCountry] = useState(null);
-  useEffect(() => {
-    function handleClick(props) {
-      setCountry(props);
-    }
-  }
-
+  console.log(props);
   return (
     <Card>
       <Card.Header>Votre pays : {props.name}</Card.Header>
@@ -21,7 +15,7 @@ const ResultsOrigin = (props) => {
           <div>Prix : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
-          <Button variant="primary" onClick={handleClick}>Plus d'info</Button>
+          <Button variant="primary" onClick={() => localStorage.setItem('Country', JSON.stringify(props))}>Plus d'infos</Button>
         </Link>
       </Card.Body>
     </Card>

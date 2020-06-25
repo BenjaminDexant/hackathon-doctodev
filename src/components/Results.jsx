@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 
 const Results = (props) => {
+  console.log(props);
   return (
     <Card>
       <Card.Header>{props.name}</Card.Header>
@@ -15,7 +16,7 @@ const Results = (props) => {
           <div>Prix : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
-          <Button variant="primary">Plus d'info</Button>
+          <Button variant="primary" onClick={() => localStorage.setItem('Country', JSON.stringify(props))}>Plus d'infos</Button>
         </Link>
       </Card.Body>
     </Card>

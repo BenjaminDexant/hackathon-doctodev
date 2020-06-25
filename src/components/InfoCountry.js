@@ -1,15 +1,18 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-const InfoCountry = (props) => {
+
+const InfoCountry = () => {
+  const myCountry = JSON.parse(localStorage.getItem('Country'));
+  console.log(myCountry);
   return (
     <Card>
-      <Card.Header>{props.name}</Card.Header>
+      <Card.Header>{myCountry.name}</Card.Header>
       <Card.Body>
-        <Card.Title>Categorie : {props.categorie}</Card.Title>
+        <Card.Title>Categorie : {myCountry.categorie}</Card.Title>
         <Card.Text>
-          <div>Type de soin : {props.description}</div>
-          <div>Prix : {props.price}</div>
+          <div>Type de soin : {myCountry.description}</div>
+          <div>Prix : {myCountry.price}</div>
         </Card.Text>
       </Card.Body>
     </Card>
