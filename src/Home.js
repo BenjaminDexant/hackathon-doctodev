@@ -8,7 +8,9 @@ const Home = () => {
   const [InfoReasearch, setInfoReasearch] = useState([]);
   return (
     <div>
-      <Title text="Trouver votre destination santé :" />
+      <div className="container">
+        <Title text="Trouver votre destination santé :" />
+      </div>
       <FormResearch setInfoReasearch={setInfoReasearch}/>
       {InfoReasearch.length!==0?
         <ResultsList InfoReasearch={InfoReasearch} />
