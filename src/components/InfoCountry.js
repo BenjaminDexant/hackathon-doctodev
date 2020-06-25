@@ -4,8 +4,8 @@ import "../style/infos.css";
 const InfoCountry = () => {
   const myCountry = JSON.parse(localStorage.getItem("Country"));
   return (
-    <div className="container">
-      <h1>{myCountry.nameCountry}</h1>
+    <div className="container containerInfos">
+      <h1>{myCountry.nameCountry} {myCountry.flag}</h1>
       <img className="image" src={myCountry.url_img_pays} alt={myCountry.nameCountry} />
       <h2>{myCountry.type}</h2>
       <p>Prestation : {myCountry.soins}</p>

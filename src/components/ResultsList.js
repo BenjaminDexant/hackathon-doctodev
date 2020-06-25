@@ -35,6 +35,7 @@ const ResultsList = () => {
           url_img_pays={data[1].url_img_pays}
           city={data[1].city}
           doctor={data[1].doctor}
+          flag={data[1].flag}
         />
       ))
       :<Alert key={1} variant={'danger'}>
@@ -52,6 +53,7 @@ const ResultsList = () => {
           url_img_pays={originalCountry[1].url_img_pays}
           city={originalCountry[1].city}
           doctor={originalCountry[1].doctor}
+          flag={originalCountry[1].flag}
         />
       </div>
     </div>

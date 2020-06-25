@@ -1,8 +1,9 @@
-.container {
-  background-color: #fcfcfcd5;
+.containerInfos {
+  background-color: ghostwhite;
   text-align: left;
 }
 
 .image {
-    width: 80%;
+    width: 100%;
+    height: auto;
 }

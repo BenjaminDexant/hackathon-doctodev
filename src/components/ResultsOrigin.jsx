@@ -7,7 +7,7 @@ import "../style/results.css";
 const ResultsOrigin = (props) => {
   return (
     <Card className="resultsOriginCard">
-      <Card.Header>Votre pays : {props.nameCountry}</Card.Header>
+      <Card.Header>Votre pays : {props.nameCountry} {props.flag}</Card.Header>
       <Card.Body>
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>

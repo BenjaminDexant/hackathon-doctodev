@@ -7,7 +7,7 @@ import "../style/results.css";
 const Results = (props) => {
   return (
     <Card className="resultsCard">
-      <Card.Header>{props.nameCountry}</Card.Header>
+      <Card.Header>{props.nameCountry} {props.flag}</Card.Header>
       <Card.Body>
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>

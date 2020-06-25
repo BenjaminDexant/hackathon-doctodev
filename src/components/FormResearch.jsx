@@ -35,7 +35,7 @@ export default function FormResearch() {
             />
         </Form.Group>
         <Form.Group md="4" controlId="validationCustom02">
-          <Form.Label>Choisissez votre catégorie</Form.Label>
+          <Form.Label>Choisissez votre prestation</Form.Label>
           <Typeahead
             id="chooseHealthType"
             labelKey="HealthType"
