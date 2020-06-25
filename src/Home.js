@@ -2,7 +2,6 @@ import React from "react";
 import ResultsList from './components/ResultsList';
 import FormResearch from './components/FormResearch';
 import Title from './components/Title';
-import Email from './components/Email'
 
 const Home = () => {
   return (
@@ -11,7 +10,6 @@ const Home = () => {
       <FormResearch />
       <Title text="Ce que nous vous proposons :"/>
       <ResultsList />
-      <Email/>
     </div>
   );
 };
