@@ -45,6 +45,7 @@ const ResultsList = ({InfoReasearch}) => {
           city={originalCountry[1].city}
           doctor={originalCountry[1].doctor}
           flag={originalCountry[1].flag}
+          intro={originalCountry[1].intro}
         />
       </>
       :""
@@ -65,6 +66,7 @@ const ResultsList = ({InfoReasearch}) => {
             city={data[1].city}
             doctor={data[1].doctor}
             flag={data[1].flag}
+            intro={data[1].intro}
           />
       ))
       :<Alert key={1} variant={'danger'}>

@@ -7,7 +7,7 @@
             "flag": "🇪🇸",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
-            "price": "100€",
+            "price": "150€",
             "localisation": {
               "lat": 41.48625,
               "lng": 2.32462
@@ -15,17 +15,18 @@
             "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
             "doctor": "D San José",
             "city": "Barcelone",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "prixTransport": 900,
             "prixHebergement": 150,
-            "qualite": 60,
+            "qualite": 80,
             "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "descriptif": "infos..."
+            "descriptif": "La pose d’implant dentaire est la meilleure solution pour remplacer votre dent manquante de manière permanente. En plus des conséquences esthétiques, perdre une dent peut entraîner des problèmes de déplacement et d’usure des autres dents, une perte osseuse à l’emplacement où se situait la dent ainsi que des problèmes de gencive. Des troubles digestifs peuvent également survenir en raison d’une mauvaise mastication. Toutefois le prix d’un implant représente souvent un budget très important. Novacorpus rend accessible la pose d’implant dans des cliniques de pointe, pour que vous n’ayez pas à choisir entre de bonnes dents et votre portefeuille."
           },
           "Etat-Unis": {
             "flag": "🇺🇲",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
-            "price": "10000€",
+            "price": "1000€",
             "localisation": {
               "lng": -73.98813,
               "lat": 40.72569
@@ -33,17 +34,18 @@
             "cliniqueName": "Perfect Dental Care",
             "doctor": "D John Smith",
             "city": "New-York",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
             "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-            "descriptif": "infos..."
+            "descriptif": "La pose d’implant dentaire est la meilleure solution pour remplacer votre dent manquante de manière permanente. En plus des conséquences esthétiques, perdre une dent peut entraîner des problèmes de déplacement et d’usure des autres dents, une perte osseuse à l’emplacement où se situait la dent ainsi que des problèmes de gencive. Des troubles digestifs peuvent également survenir en raison d’une mauvaise mastication. Toutefois le prix d’un implant représente souvent un budget très important. Novacorpus rend accessible la pose d’implant dans des cliniques de pointe, pour que vous n’ayez pas à choisir entre de bonnes dents et votre portefeuille."
           },
           "Roumanie": {
             "flag": "🇹🇩",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
-            "price": "800€",
+            "price": "150€",
             "localisation": {
               "lat": 44.85492,
               "lng": 24.86229
@@ -51,29 +53,31 @@
             "cliniqueName": "Medical Tours Company",
             "doctor": "D Ian Nebuneshkou",
             "city": "Bucarest",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "prixTransport": 900,
             "prixHebergement": 150,
-            "qualite": 40,
+            "qualite": 70,
             "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
-            "descriptif": "infos..."
+            "descriptif": "La pose d’implant dentaire est la meilleure solution pour remplacer votre dent manquante de manière permanente. En plus des conséquences esthétiques, perdre une dent peut entraîner des problèmes de déplacement et d’usure des autres dents, une perte osseuse à l’emplacement où se situait la dent ainsi que des problèmes de gencive. Des troubles digestifs peuvent également survenir en raison d’une mauvaise mastication. Toutefois le prix d’un implant représente souvent un budget très important. Novacorpus rend accessible la pose d’implant dans des cliniques de pointe, pour que vous n’ayez pas à choisir entre de bonnes dents et votre portefeuille."
           },
           "France": {
-            "flag":"🇫🇷",
+            "flag": "🇫🇷",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
-            "price": "1000€",
+            "price": "800€",
             "localisation": {
               "lat": 43.60767,
               "lng": 1.47378
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
             "doctor": "D Alexandrina Marin",
-            "city": "Toulouse",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
+            "city": "Paris",
             "prixTransport": 900,
             "prixHebergement": 150,
             "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
             "qualite": 70,
-            "descriptif": "infos..."
+            "descriptif": "La pose d’implant dentaire est la meilleure solution pour remplacer votre dent manquante de manière permanente. En plus des conséquences esthétiques, perdre une dent peut entraîner des problèmes de déplacement et d’usure des autres dents, une perte osseuse à l’emplacement où se situait la dent ainsi que des problèmes de gencive. Des troubles digestifs peuvent également survenir en raison d’une mauvaise mastication. Toutefois le prix d’un implant représente souvent un budget très important. Novacorpus rend accessible la pose d’implant dans des cliniques de pointe, pour que vous n’ayez pas à choisir entre de bonnes dents et votre portefeuille."
           }
         },
         "pose_d'une_prothèse_dentaire": {
@@ -88,12 +92,13 @@
             },
             "cliniqueName": "Clinique Dentaire El Cedro Barcelone",
             "doctor": "D San José",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "city": "Barcelone",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 60,
             "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "descriptif": "infos..."
+            "descriptif": "Vous avez perdu une ou plusieurs dents ? Vos dents sont délabrées ? Une prothèse dentaire, qu’elle soit posée sur une dent naturelle ou sur un implant dentaire, permet de reconstruire une dent abimée, à la suite d’une carie ou d’une fracture dentaire. Elle peut également remplacer une ou plusieurs dents manquantes."
           },
           "Etat-Unis": {
             "flag": "🇺🇲",
@@ -106,12 +111,13 @@
             },
             "cliniqueName": "Perfect Dental Care",
             "doctor": "D John Smith",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "city": "New-York",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 90,
             "url_img_pays": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-            "descriptif": "infos..."
+            "descriptif": "Vous avez perdu une ou plusieurs dents ? Vos dents sont délabrées ? Une prothèse dentaire, qu’elle soit posée sur une dent naturelle ou sur un implant dentaire, permet de reconstruire une dent abimée, à la suite d’une carie ou d’une fracture dentaire. Elle peut également remplacer une ou plusieurs dents manquantes."
           },
           "Roumanie": {
             "flag": "🇹🇩",
@@ -124,15 +130,16 @@
             },
             "cliniqueName": "Medical Tours Company",
             "doctor": "D Ian Nebuneshkou",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
             "city": "Bucarest",
             "prixTransport": 900,
             "prixHebergement": 150,
             "qualite": 40,
             "url_img_pays": "https://www.francaisaletranger.fr/wp-content/uploads/2019/11/roumanie.jpg",
-            "descriptif": "infos..."
+            "descriptif": "Vous avez perdu une ou plusieurs dents ? Vos dents sont délabrées ? Une prothèse dentaire, qu’elle soit posée sur une dent naturelle ou sur un implant dentaire, permet de reconstruire une dent abimée, à la suite d’une carie ou d’une fracture dentaire. Elle peut également remplacer une ou plusieurs dents manquantes."
           },
           "France": {
-            "flag":"🇫🇷",
+            "flag": "🇫🇷",
             "type": "Soins dentaires",
             "soins": "Pose d'une prothèse dentaire",
             "price": "800€",
@@ -142,12 +149,13 @@
             },
             "cliniqueName": "cabinet dentaire du Docteur MARIN Alexandrina",
             "doctor": "D Alexandrina Marin",
-            "city": "Toulouse",
+            "intro": "Soins dentaires à l’étranger : choisissez des dentistes en Europe réputés pour leur compétence. Qu’il s’agisse d’implant dentaire, de couronne, de bridge ou encore de facette dentaire, notre réseau nous permet de rendre financièrement abordables des traitements importants dans des cliniques de pointe avec des dentistes de haut niveau. Nous avons sélectionné pour vous des spécialistes parmi les plus expérimentés et reconnus.",
+            "city": "Paris",
             "prixTransport": 900,
             "prixHebergement": 150,
             "url_img_pays": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
             "qualite": 70,
-            "descriptif": "infos..."
+            "descriptif": "Vous avez perdu une ou plusieurs dents ? Vos dents sont délabrées ? Une prothèse dentaire, qu’elle soit posée sur une dent naturelle ou sur un implant dentaire, permet de reconstruire une dent abimée, à la suite d’une carie ou d’une fracture dentaire. Elle peut également remplacer une ou plusieurs dents manquantes."
           }
         }
       }

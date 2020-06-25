@@ -12,14 +12,13 @@ const Results = (props) => {
       </Card.Header>
       <Card.Body>
         <Card.Title>Categorie : {props.type}</Card.Title>
-        <Card.Text>
-          Type de soin : {props.soins}
-        </Card.Text>
-        <Card.Text>
-          Notation : {props.qualite}/100
-        </Card.Text>
+        <Card.Text>Type de soin : {props.soins}</Card.Text>
+        <Card.Text>Notation : {props.qualite}/100</Card.Text>
         <Card.Text>
           Prix (brut) : {props.price}
+          <p className="italicMessage">
+            * Tarif de la prestation seule, hors transport et logement.
+          </p>
         </Card.Text>
         <Link to="/Infos">
           <Button
@@ -27,7 +26,7 @@ const Results = (props) => {
             onClick={() =>
               localStorage.setItem("Country", JSON.stringify(props))
             }
-            style={{marginTop: "24px"}}
+            style={{ marginTop: "24px" }}
           >
             Plus d'infos
           </Button>
