@@ -5,8 +5,8 @@ class SimpleExample extends React.Component {
     constructor() {
         super();
         this.state = {
-            lat: 51.505,
-            lng: -0.09,
+            lat: 41.48625,
+            lng: 2.32462,
             zoom: 13,
         };
     }
