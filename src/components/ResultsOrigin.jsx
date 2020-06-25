@@ -14,7 +14,7 @@ const ResultsOrigin = (props) => {
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>
           <div>Type de soin : {props.soins}</div>
-          <div>Notation : {props.qualite}/100</div>
+          <div>Qualité des soins : {props.qualite}/100</div>
           <div>Prix (brut*) : {props.price}</div>
           <p className="italicMessage">
             * Tarif de la prestation seule, hors transport et logement.

@@ -159,6 +159,20 @@
           }
         }
       }
+    },
+    "implant_capillaire": {
+      "type_de_soin": {
+        "implant_capillaire": {
+          "Espagne": {}
+        }
+      }
+    },
+    "agrandissement_du_penis": {
+      "type_de_soin": {
+        "agrandissement_du_penis": {
+          "Espagne": {}
+        }
+      }
     }
   }
 }
