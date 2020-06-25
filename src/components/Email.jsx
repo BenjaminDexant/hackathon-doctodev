@@ -47,7 +47,7 @@ export default function Email(){
   return(
     <>
     <hr/>
-    <p>Recevez votre parcour de soin en reseignant votre adresse mail:</p>
+    <p>Recevez votre parcours de soin en reseignant votre adresse mail :</p>
     <form className="formMail" onSubmit={sendEmail}>
       <div>
         <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
