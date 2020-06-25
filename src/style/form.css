@@ -4,9 +4,20 @@
   padding-bottom:0;
   height: 38px; 
 }
+.form-control{
+  border-radius: 0;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+input[type=date]{
+  cursor: pointer;
+}
+
 .form-group{
   margin:  0 0 25px 0;
 }
 .input-group:nth-last-child(1) > div{
   margin-left:auto;
-}
+  width: 100%;
+} 
