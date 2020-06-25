@@ -5,3 +5,6 @@
 .resultsCard {
   margin-bottom: 10px;
 }
+.resultsCard p {
+  margin:0;
+}

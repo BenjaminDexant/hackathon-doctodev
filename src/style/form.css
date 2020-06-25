@@ -20,4 +20,7 @@ input[type=date]{
 .input-group:nth-last-child(1) > div{
   margin-left:auto;
   width: 100%;
-} 
+}
+.formResearch{
+  margin-bottom: 25px;
+}
