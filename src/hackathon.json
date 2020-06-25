@@ -4,6 +4,7 @@
       "type_de_soin": {
         "pose_implant_dentaire": {
           "Espagne": {
+            "flag": "🇪🇸",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "100€",
@@ -19,6 +20,7 @@
             "descriptif": "infos..."
           },
           "Etat-Unis": {
+            "flag": "🇺🇲",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "10000€",
@@ -34,6 +36,7 @@
             "descriptif": "infos..."
           },
           "Roumanie": {
+            "flag": "🇹🇩",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "800€",
@@ -49,6 +52,7 @@
             "descriptif": "infos..."
           },
           "France": {
+            "flag":"🇫🇷",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "1000€",
@@ -66,6 +70,7 @@
         },
         "pose_prothèse_dentaire": {
           "Espagne": {
+            "flag": "🇪🇸",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "500€",
@@ -81,6 +86,7 @@
             "descriptif": "infos..."
           },
           "Etat-Unis": {
+            "flag": "🇺🇲",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "prixOperation": "5000€",
@@ -96,6 +102,7 @@
             "descriptif": "infos..."
           },
           "Roumanie": {
+            "flag": "🇹🇩",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "600€",
@@ -111,6 +118,7 @@
             "descriptif": "infos..."
           },
           "France": {
+            "flag":"🇫🇷",
             "type": "Soins dentaires",
             "soins": "Pose d'implant dentaire",
             "price": "800€",
