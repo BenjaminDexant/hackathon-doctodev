@@ -15,7 +15,7 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/tanguy-cirillo/">Tanguy Cirillo</a>,&nbsp;
               <a href="https://www.linkedin.com/in/tanguy-cirillo/">Jérôme Hamilca</a>,&nbsp;
               <a href="https://www.linkedin.com/in/benjamin-dexant-984995133/">Benjamin Dexant</a>&nbsp;
-                et <a href="https://www.linkedin.com/in/tanguy-cirillo/">Thierry Arzal</a>&nbsp;
+                et <a href="https://www.linkedin.com/in/thierryarzal/fr">Thierry Arzal</a>&nbsp;
                 - Tous droits réservés</p>
           </div>
         </div>

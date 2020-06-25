@@ -2,7 +2,6 @@
 .formMail{
   display: flex;
   flex-direction: row;
-  margin-top: 35px;
   margin-bottom: 35px;
 }
 .inputMail{
@@ -34,7 +33,6 @@
 
 @media screen and (max-width:768px){
   .formMail{
-    margin-top: 20px;
     margin-bottom: 70px;
   }
   .inputMail{

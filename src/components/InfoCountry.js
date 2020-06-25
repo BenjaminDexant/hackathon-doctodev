@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/infos.css";
+import Email from './Email'
 
 const InfoCountry = () => {
   const myCountry = JSON.parse(localStorage.getItem("Country"));
@@ -23,6 +24,7 @@ const InfoCountry = () => {
       <p>{myCountry.descriptif}</p>
       <p>{myCountry.intro}</p>
       <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
+      <Email/>
     </div>
   );
 };
