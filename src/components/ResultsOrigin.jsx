@@ -13,7 +13,7 @@ const ResultsOrigin = (props) => {
         <Card.Text>
           <div>Type de soin : {props.soins}</div>
           <div>Notation : {props.qualite}/100</div>
-          <div>Prix : {props.price}</div>
+          <div>Prix (brut) : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
           <Button

@@ -12,7 +12,8 @@ const Results = (props) => {
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>
           <div>Type de soin : {props.soins}</div>
-          <div>Prix : {props.price}</div>
+          <div>Notation : {props.qualite}/100</div>
+          <div>Prix (brut) : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
           <Button
