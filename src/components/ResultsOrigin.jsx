@@ -4,7 +4,6 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const ResultsOrigin = (props) => {
-  console.log(props);
   return (
     <Card>
       <Card.Header>Votre pays : {props.name}</Card.Header>
@@ -15,7 +14,14 @@ const ResultsOrigin = (props) => {
           <div>Prix : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
-          <Button variant="primary" onClick={() => localStorage.setItem('Country', JSON.stringify(props))}>Plus d'infos</Button>
+          <Button
+            variant="primary"
+            onClick={() =>
+              localStorage.setItem("Country", JSON.stringify(props))
+            }
+          >
+            Plus d'infos
+          </Button>
         </Link>
       </Card.Body>
     </Card>
