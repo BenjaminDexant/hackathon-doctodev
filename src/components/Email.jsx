@@ -45,16 +45,18 @@ export default function Email(){
   };
 
   return(
-    <form className="formMail container" onSubmit={sendEmail}>
+    <>
+    <hr/>
+    <p>Recevez votre parcour de soin en reseignant votre adresse mail:</p>
+    <form className="formMail" onSubmit={sendEmail}>
       <div>
-        <label htmlFor="mail">
-          <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
-        </label>
+        <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
       </div>
       <div className="containerButtonEnvoieMail">
         <button className="envoieMail" type="submit">Envoyer</button>
       </div>
       <NotificationContainer/>
     </form>
+    </>
   )
 }
