@@ -1,10 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-
 const InfoCountry = () => {
-  const myCountry = JSON.parse(localStorage.getItem('Country'));
-  console.log(myCountry);
+  const myCountry = JSON.parse(localStorage.getItem("Country"));
   return (
     <Card>
       <Card.Header>{myCountry.name}</Card.Header>
