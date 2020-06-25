@@ -3,16 +3,28 @@ import { Form, Button, InputGroup, Col } from 'react-bootstrap';
 import AlgoliaPlaces from 'algolia-places-react';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import MediaQuery from 'react-responsive';
+import Popup from './Popup';
 import hackathon from '../hackathon.json';
-import '../style/form.css'
+import '../style/form.css';
 
-
-export default function FormResearch() {
+export default function FormResearch({setInfoReasearch}) {
   const [selectCateg, setCateg] = useState([]);
   const [selectHealthType, setHealthType] = useState([]);
+  const [selectCountry, setCountry] = useState([]);
+  const [modalShow, setModalShow] = useState(false);
 
+  
+  const handleSubmit = e => {
+    e.preventDefault();
+    if(selectCateg.length!==0 && selectHealthType.length!==0 && selectCountry.length!==0){
+      setInfoReasearch({country:selectCountry, healthCare:selectHealthType, categ:selectCateg});
+    }else{
+      setModalShow(true);
+    }
+  }
+ 
   let allData = Object.entries(hackathon.categorie);
-  const getCateg = allData.map(el => el[0].replace("_", " "))
+  const getCateg = allData.map(el => el[0].replace(/_/g, " "))
 
   let getHealthType = allData.map(el => Object.keys(el[1].type_de_soin))
   getHealthType = getHealthType[0]
@@ -20,7 +32,7 @@ export default function FormResearch() {
 
   return (
     <div className="container">
-      <Form>
+      <Form onSubmit={handleSubmit} className="formResearch">
         <Form.Group md="4" controlId="validationCustom01">
             <Form.Label>Choisissez votre catégorie</Form.Label>
             <Typeahead
@@ -73,7 +85,8 @@ export default function FormResearch() {
                   type: 'country',
                 }}
                 onChange={({ query, rawAnswer, suggestion, suggestionIndex }) => 
-                console.log('Fired when suggestion selected in the dropdown or hint was validated.')}
+                  setCountry(suggestion.value)
+                }
         
                 onSuggestions={({ rawAnswer, query, suggestions }) => 
                   console.log('Fired when dropdown receives suggestions. You will receive the array of suggestions that are displayed.')}
@@ -96,7 +109,12 @@ export default function FormResearch() {
         </Form.Row>
         <Button type="submit">Rechercher</Button>
       </Form>
-      
+      <Popup 
+        text="Veuillez remplir tous les champs" 
+        titre="Attention!" 
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
     </div>
   );
 }
