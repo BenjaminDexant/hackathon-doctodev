@@ -12,12 +12,13 @@ export default function FormResearch() {
   const [selectHealthType, setHealthType] = useState([]);
 
   let allData = Object.entries(hackathon.categorie);
-  const getCateg = allData.map(el => el[0].replace("_", " "))
+  let getCateg = allData.map(el => el[0].replace("_", " "))
+  getCateg = getCateg.map(el => el[0].toUpperCase() + el.slice(1))
 
   let getHealthType = allData.map(el => Object.keys(el[1].type_de_soin))
   getHealthType = getHealthType[0]
   getHealthType = getHealthType.map(el => el.replace(/_/g, " "))
-
+  getHealthType = getHealthType.map(el => el[0].toUpperCase() + el.slice(1))
   return (
     <div className="container">
       <Form>
