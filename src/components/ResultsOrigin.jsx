@@ -7,12 +7,13 @@ import "../style/results.css";
 const ResultsOrigin = (props) => {
   return (
     <Card className="resultsOriginCard">
-      <Card.Header>Votre pays : {props.name}</Card.Header>
+      <Card.Header>Votre pays : {props.nameCountry} {props.flag}</Card.Header>
       <Card.Body>
-        <Card.Title>Categorie : {props.categorie}</Card.Title>
+        <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>
-          <div>Type de soin : {props.description}</div>
-          <div>Prix : {props.price}</div>
+          <div>Type de soin : {props.soins}</div>
+          <div>Notation : {props.qualite}/100</div>
+          <div>Prix (brut) : {props.price}</div>
         </Card.Text>
         <Link to="/Infos">
           <Button

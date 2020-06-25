@@ -5,7 +5,6 @@ import SimpleExample from './components/Map';
 const Infos = () => {
     return (
         <div>
-            <h1>Page info</h1>
             <InfoCountry />
             <SimpleExample />
         </div>
