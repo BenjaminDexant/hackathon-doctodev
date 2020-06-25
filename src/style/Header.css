@@ -1,8 +1,13 @@
 .header {
   background-image: url("../img/image-home.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 .jumbotron {
-  min-height: 750px;
+  min-height: 500px;
+}
+
+.Slogan {
+  font-size: 1rem;
+  color:#00aeef;
 }

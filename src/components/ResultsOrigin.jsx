@@ -3,12 +3,11 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-
-const Results = (props) => {
+const ResultsOrigin = (props) => {
   console.log(props);
   return (
     <Card>
-      <Card.Header>{props.name}</Card.Header>
+      <Card.Header>Votre pays : {props.name}</Card.Header>
       <Card.Body>
         <Card.Title>Categorie : {props.categorie}</Card.Title>
         <Card.Text>
@@ -23,4 +22,4 @@ const Results = (props) => {
   );
 };
 
-export default Results;
+export default ResultsOrigin;

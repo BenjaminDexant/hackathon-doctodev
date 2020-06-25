@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Form, Button, InputGroup } from 'react-bootstrap';
+import { Form, Button, InputGroup, Col } from 'react-bootstrap';
 import AlgoliaPlaces from 'algolia-places-react';
+import '../style/form.css'
 
 
-export default function FormRearch() {
+export default function FormResearch() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -15,7 +16,6 @@ export default function FormRearch() {
 
     setValidated(true);
   };
-
 
   return (
     <div className="container">
@@ -52,14 +52,27 @@ export default function FormRearch() {
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
-        <Form.Group md="4" controlId="validationCustom02">
+        <Form.Row >
+        <Form.Group as={Col} md="6" controlId="validationCustomUsername">
           <InputGroup>
             <InputGroup.Prepend>
-              <InputGroup.Text id="inputGroupPrepend">Votre pays</InputGroup.Text>
+              <InputGroup.Text id="inputGroupPrepend"><span aria-label="calendrier" role="img">📆</span></InputGroup.Text>
             </InputGroup.Prepend>
+            <Form.Control
+              type="date"
+              aria-describedby="inputGroupPrepend"
+              required
+            />
+            <Form.Control.Feedback type="invalid">
+              Veuillez choisir une date.
+            </Form.Control.Feedback>
+          </InputGroup>
+        </Form.Group>
+        <Form.Group as={Col} md="6" controlId="validationCustom02">
+          <InputGroup>
             <AlgoliaPlaces
               type="text"
-              placeholder='Pays...'
+              placeholder='Votre pays...'
               options={{
                 appId: process.env.algoliaID,
                 apiKey: process.env.algoliaKey,
@@ -90,21 +103,7 @@ export default function FormRearch() {
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
-        <Form.Group md="4" controlId="validationCustomUsername">
-          <InputGroup>
-            <InputGroup.Prepend>
-              <InputGroup.Text id="inputGroupPrepend"><span aria-label="calendrier" role="img">📆</span></InputGroup.Text>
-            </InputGroup.Prepend>
-            <Form.Control
-              type="date"
-              aria-describedby="inputGroupPrepend"
-              required
-            />
-            <Form.Control.Feedback type="invalid">
-              Veuillez choisir une date.
-            </Form.Control.Feedback>
-          </InputGroup>
-        </Form.Group>
+        </Form.Row>
         <Button type="submit">Rechercher</Button>
       </Form>
       
