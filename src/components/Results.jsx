@@ -13,9 +13,13 @@ const Results = (props) => {
       <Card.Body>
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>
-          <div>Type de soin : {props.soins}</div>
-          <div>Notation : {props.qualite}/100</div>
-          <div>Prix (brut) : {props.price}</div>
+          Type de soin : {props.soins}
+        </Card.Text>
+        <Card.Text>
+          Notation : {props.qualite}/100
+        </Card.Text>
+        <Card.Text>
+          Prix (brut) : {props.price}
         </Card.Text>
         <Link to="/Infos">
           <Button
@@ -23,6 +27,7 @@ const Results = (props) => {
             onClick={() =>
               localStorage.setItem("Country", JSON.stringify(props))
             }
+            style={{marginTop: "24px"}}
           >
             Plus d'infos
           </Button>
