@@ -32,7 +32,9 @@ const ResultsList = () => {
           descriptif={data[1].descriptif}
           cliniqueName={data[1].cliniqueName}
           qualite={data[1].qualite}
-          url_img_pays={data[1].url_image_pays}
+          url_img_pays={data[1].url_img_pays}
+          city={data[1].city}
+          doctor={data[1].doctor}
         />
       ))
       :<Alert key={1} variant={'danger'}>
@@ -47,7 +49,9 @@ const ResultsList = () => {
           descriptif={originalCountry[1].descriptif}
           cliniqueName={originalCountry[1].cliniqueName}
           qualite={originalCountry[1].qualite}
-          url_img_pays={originalCountry[1].url_image_pays}
+          url_img_pays={originalCountry[1].url_img_pays}
+          city={originalCountry[1].city}
+          doctor={originalCountry[1].doctor}
         />
       </div>
     </div>
