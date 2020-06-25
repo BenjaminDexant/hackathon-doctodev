@@ -2,7 +2,7 @@
   "categorie": {
     "soins_dentaires": {
       "type_de_soin": {
-        "pose_implant_dentaire": {
+        "pose_d'un_implant_dentaire": {
           "Espagne": {
             "flag": "🇪🇸",
             "type": "Soins dentaires",
@@ -68,7 +68,7 @@
             "descriptif": "infos..."
           }
         },
-        "pose_prothèse_dentaire": {
+        "pose_d'une_prothèse_dentaire": {
           "Espagne": {
             "flag": "🇪🇸",
             "type": "Soins dentaires",
