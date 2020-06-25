@@ -1,8 +1,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 
 const Results = (props) => {
+  console.log(props);
   return (
     <Card>
       <Card.Header>{props.name}</Card.Header>
@@ -12,10 +15,12 @@ const Results = (props) => {
           <div>Type de soin : {props.description}</div>
           <div>Prix : {props.price}</div>
         </Card.Text>
-        <Button variant="primary">Plus d'info</Button>
+        <Link to="/Infos">
+          <Button variant="primary" onClick={() => localStorage.setItem('Country', JSON.stringify(props))}>Plus d'infos</Button>
+        </Link>
       </Card.Body>
     </Card>
   );
-}
+};
 
 export default Results;
