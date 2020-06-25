@@ -1,19 +1,19 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import "../style/infos.css";
 
 const InfoCountry = () => {
   const myCountry = JSON.parse(localStorage.getItem("Country"));
   return (
-    <Card>
-      <Card.Header>{myCountry.name}</Card.Header>
-      <Card.Body>
-        <Card.Title>Categorie : {myCountry.categorie}</Card.Title>
-        <Card.Text>
-          <div>Type de soin : {myCountry.description}</div>
-          <div>Prix : {myCountry.price}</div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
+    <div className="container">
+      <h1>{myCountry.nameCountry}</h1>
+      <img src={myCountry.url_img_pays} alt={myCountry.nameCountry} />
+      <h2>{myCountry.type}</h2>
+      <p>Prestation : {myCountry.soins}</p>
+      <p>Prix (brut) : {myCountry.price}</p>
+      <p>Nom de la clinique : {myCountry.cliniqueName}</p>
+      <p>Notation : {myCountry.qualite}</p>
+      <p>{myCountry.descriptif}</p>
+    </div>
   );
 };
 

@@ -25,10 +25,14 @@ const ResultsList = () => {
       ?
       healthType.map(data => (
         <Results
-          categorie={data[1].type}
-          name={data[0]}
-          description={data[1].soins}
+          type={data[1].type}
+          nameCountry={data[0]}
+          soins={data[1].soins}
           price={data[1].price}
+          descriptif={data[1].descriptif}
+          cliniqueName={data[1].cliniqueName}
+          qualite={data[1].qualite}
+          url_img_pays={data[1].url_image_pays}
         />
       ))
       :<Alert key={1} variant={'danger'}>
@@ -36,10 +40,14 @@ const ResultsList = () => {
       </Alert>}
       <div>
         <ResultsOrigin
-          categorie={originalCountry[1].type}
-          name={originalCountry[0]}
-          description={originalCountry[1].soins}
+          type={originalCountry[1].type}
+          nameCountry={originalCountry[0]}
+          soins={originalCountry[1].soins}
           price={originalCountry[1].price}
+          descriptif={originalCountry[1].descriptif}
+          cliniqueName={originalCountry[1].cliniqueName}
+          qualite={originalCountry[1].qualite}
+          url_img_pays={originalCountry[1].url_image_pays}
         />
       </div>
     </div>
