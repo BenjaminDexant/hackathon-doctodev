@@ -14,7 +14,7 @@ app.post('/send', (req, res) => {
     const mailOptions = { 
       from: process.env.email,
       to: req.body.email,
-      subject: "Voici quelque info sur ta peut-être futur destination",
+      subject: "Voici les informations sur votre destination santé",
       html: `
       <div style="margin:auto; width:70% background-color:#f8f8ff">
         <h1 style="font-size:2rem">${nameCountry + flag}</h1>

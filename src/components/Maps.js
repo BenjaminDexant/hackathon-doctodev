@@ -23,7 +23,7 @@ class Maps extends React.Component {
           <Marker position={position}>
             <Popup>
               <span>
-                A pretty CSS3 popup. <br /> Easily customizable.
+              Clinique Dentaire El Cedro Barcelone
               </span>
             </Popup>
           </Marker>
