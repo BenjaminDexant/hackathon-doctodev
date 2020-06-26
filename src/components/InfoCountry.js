@@ -24,7 +24,7 @@ const InfoCountry = () => {
       <p>{myCountry.descriptif}</p>
       <p>{myCountry.intro}</p>
       <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
-      <Email/>
+      <Email data={myCountry}/>
     </div>
   );
 };

@@ -4,14 +4,14 @@ import '../style/email.css';
 import 'react-notifications/lib/notifications.css';
 import { NotificationContainer, NotificationManager} from 'react-notifications';
 
-export default function Email(){
+export default function Email({ data }){
   const [mail, setMail] = useState('');
   const [result, setResult] = useState(null);
 
   const sendEmail = event => {
     event.preventDefault();
     axios
-     .post('/send', {"email": mail})
+     .post('/send', {"email": mail, data})
      .then(response => {
        setResult(response.data);
        setMail(mail);
