@@ -15,7 +15,8 @@ export default function Email({ data }){
      .then(response => {
        setResult(response.data);
        setMail(mail);
-       createNotification('success')
+       createNotification('success');
+       console.log(result)
      })
      .catch((err) => {
        setResult({ success: false});
@@ -35,7 +36,7 @@ export default function Email({ data }){
         NotificationManager.warning('Warning message', 'Close after 3000ms', 3000);
         break;
       default:
-        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 10000);
+        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 3000);
         break;
     }
   };
