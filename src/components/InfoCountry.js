@@ -24,10 +24,13 @@ const InfoCountry = () => {
       <p>Disponibilité : à partir du mardi 08/09/2020</p>
       <p>{myCountry.descriptif}</p>
       <p>{myCountry.intro}</p>
+      <br></br>
+      <hr></hr>
+      <br></br>
       <p>Pour prendre rendez-vous, vous pouvez nous contacter au 0505050505.</p>
+      <Email data={myCountry}/>
       <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
       <p className="italicMessage">** Notation par des experts, sur des critères médicaux uniquement.</p>
-      <Email/>
     </div>
   );
 };

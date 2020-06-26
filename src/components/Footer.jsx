@@ -12,10 +12,10 @@ export default function Footer() {
           </div>
           <div>
               <p className="textFooter">© 2019 - 2020 Health Care Company - Développé par&nbsp;
-              <a href="https://www.linkedin.com/in/tanguy-cirillo/">Tanguy Cirillo</a>,&nbsp;
-              <a href="https://www.linkedin.com/in/tanguy-cirillo/">Jérôme Hamilca</a>,&nbsp;
-              <a href="https://www.linkedin.com/in/benjamin-dexant-984995133/">Benjamin Dexant</a>&nbsp;
-                et <a href="https://www.linkedin.com/in/thierryarzal/fr">Thierry Arzal</a>&nbsp;
+              <a href="https://www.linkedin.com/in/tanguy-cirillo/" target="blank">Tanguy Cirillo</a>,&nbsp;
+              <a href="https://www.linkedin.com/in/jeromehamilka/" target="blank">Jérôme Hamilka</a>,&nbsp;
+              <a href="https://www.linkedin.com/in/benjamin-dexant-984995133/" target="blank">Benjamin Dexant</a>&nbsp;
+                et <a href="https://www.linkedin.com/in/thierryarzal/fr" target="blank">Thierry Arzal</a>&nbsp;
                 - Tous droits réservés</p>
           </div>
         </div>
