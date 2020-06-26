@@ -6,7 +6,7 @@ const InfoCountry = () => {
   const myCountry = JSON.parse(localStorage.getItem("Country"));
   return (
     <div className="container containerInfos" >
-      <h1>
+      <h1 style={{color: "black"}}>
         {myCountry.nameCountry} {myCountry.flag}
       </h1>
       <img
@@ -14,7 +14,7 @@ const InfoCountry = () => {
         src={myCountry.url_img_pays}
         alt={myCountry.nameCountry}
       />
-      <h2>{myCountry.type}</h2>
+      <h2 >{myCountry.type}</h2>
       <p>Prestation : {myCountry.soins}</p>
       <p>Prix (brut*) : {myCountry.price}</p>
       <p>Ville : {myCountry.city}</p>
