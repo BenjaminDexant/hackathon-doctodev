@@ -163,14 +163,100 @@
     "implant_capillaire": {
       "type_de_soin": {
         "implant_capillaire": {
-          "Espagne": {}
+          "Espagne": {
+            "flag": "🇪🇸",
+            "type": "implant capillaire",
+            "soins": "implant capillaire",
+            "price": "500€",
+            "localisation": {
+              "lat": 41.48625,
+              "lng": 2.32462
+            },
+            "cliniqueName": "Clinique No Se Barcelone",
+            "doctor": "D Jose Luis David",
+            "city": "Barcelone",
+            "intro": "Infos",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 80,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "More Infos"
+          }
+        }
+      }
+    },
+    "chirurgie_laser_des_yeux": {
+      "type_de_soin": {
+        "operation_PKR": {
+          "Espagne": {
+            "flag": "🇪🇸",
+            "type": "chirurgie laser des yeux",
+            "soins": "operation PKR",
+            "price": "1800€",
+            "localisation": {
+              "lat": 41.48625,
+              "lng": 2.32462
+            },
+            "cliniqueName": "Clinique de la vision Barcelone",
+            "doctor": "D Corona Sanchez",
+            "city": "Barcelone",
+            "intro": "Infos",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 80,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "More Infos"
+          }
+        }
+      }
+    },
+    "chirurgie_esthetique": {
+      "type_de_soin": {
+        "augmentation_mammaire_avec_prothèses": {
+          "Espagne": {
+            "flag": "🇪🇸",
+            "type": "chirurgie esthetique",
+            "soins": "augmentation mammaire avec prothèses",
+            "price": "2500€",
+            "localisation": {
+              "lat": 41.48625,
+              "lng": 2.32462
+            },
+            "cliniqueName": "Clinique de la vision Barcelone",
+            "doctor": "D Corona Sanchez",
+            "city": "Barcelone",
+            "intro": "Infos",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 80,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "More Infos"
+          }
         }
       }
     },
     "agrandissement_du_penis": {
       "type_de_soin": {
         "agrandissement_du_penis": {
-          "Espagne": {}
+          "Espagne": {
+            "flag": "🇪🇸",
+            "type": "agrandissement du penis",
+            "soins": "agrandissement du penis",
+            "price": "1500€",
+            "localisation": {
+              "lat": 41.48625,
+              "lng": 2.32462
+            },
+            "cliniqueName": "Clinique privée Anonyme Barcelone",
+            "doctor": "D Corona Sanchez",
+            "city": "Barcelone",
+            "intro": "Infos",
+            "prixTransport": 900,
+            "prixHebergement": 150,
+            "qualite": 80,
+            "url_img_pays": "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "descriptif": "More Infos"
+          }
         }
       }
     }
