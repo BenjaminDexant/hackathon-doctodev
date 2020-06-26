@@ -4,14 +4,14 @@ import '../style/email.css';
 import 'react-notifications/lib/notifications.css';
 import { NotificationContainer, NotificationManager} from 'react-notifications';
 
-export default function Email(){
+export default function Email({ data }){
   const [mail, setMail] = useState('');
   const [result, setResult] = useState(null);
 
   const sendEmail = event => {
     event.preventDefault();
     axios
-     .post('/send', {"email": mail})
+     .post('/send', {"email": mail, data})
      .then(response => {
        setResult(response.data);
        setMail(mail);
@@ -35,7 +35,7 @@ export default function Email(){
         NotificationManager.warning('Warning message', 'Close after 3000ms', 3000);
         break;
       default:
-        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 3000);
+        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 10000);
         break;
     }
   };
@@ -45,16 +45,17 @@ export default function Email(){
   };
 
   return(
-    <form className="formMail container" onSubmit={sendEmail}>
+    <>
+    <p>Recevez votre parcours de soin en reseignant votre adresse mail :</p>
+    <form className="formMail" onSubmit={sendEmail}>
       <div>
-        <label htmlFor="mail">
-          <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
-        </label>
+        <input className="inputMail" onChange={onInputChange} placeholder="ex: abc@gmail.com" type="email" value={mail} name="mail" required/>
       </div>
       <div className="containerButtonEnvoieMail">
         <button className="envoieMail" type="submit">Envoyer</button>
       </div>
       <NotificationContainer/>
     </form>
+    </>
   )
 }

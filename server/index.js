@@ -9,12 +9,30 @@ app.use(express.json());
 app.use(express.static(buildPath));
 
 app.post('/send', (req, res) => {
+  const {type, nameCountry, soins, price, descriptif, cliniqueName, url_img_pays, city, flag, intro, qualite, doctor} = req.body.data
   try{
     const mailOptions = { 
       from: process.env.email,
       to: req.body.email,
       subject: "Voici quelque info sur ta peut-être futur destination",
-      text: "Hi !\r\n\nThanks for following our IFTTT!\r\n\nYou will now receive a new work of art every weeks !",
+      html: `
+      <div style="margin:auto; width:70% background-color:#f8f8ff">
+        <h1 style="font-size:2rem">${nameCountry + flag}</h1>
+        <img style="height:200px; margin: auto" src=${url_img_pays}></img>
+        <h2 style="font-size:1.08rem">${type}</h2>
+        <ul style="font-size:1.02rem">
+          <li>Prestation : ${soins}</li>
+          <li>Prix (brut*) : ${price}</li>
+          <li>Ville : ${city}</li>
+          <li>Nom de la clinique : ${cliniqueName}</li>
+          <li>Docteur/Chirurgien : ${doctor}</li>
+          <li>Notation : ${qualite}/100</li>
+        </ul>
+        <hr>
+        <p style="font-size:1.05rem">${intro}</p>
+        <p style="font-size:1.02rem">${descriptif}</p>
+      </div>
+      `,
       //template: "index"
     }
     transporter.sendMail(mailOptions, function(err, info){
@@ -36,6 +54,6 @@ app.post('/send', (req, res) => {
     });
   }
 });
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('server start on port 3000');
 });

@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/infos.css";
+import Email from './Email'
 
 const InfoCountry = () => {
   const myCountry = JSON.parse(localStorage.getItem("Country"));
@@ -19,10 +20,17 @@ const InfoCountry = () => {
       <p>Ville : {myCountry.city}</p>
       <p>Nom de la clinique : {myCountry.cliniqueName}</p>
       <p>Docteur/Chirurgien : {myCountry.doctor}</p>
-      <p>Notation : {myCountry.qualite}/100</p>
+      <p>Qualité des soins** : {myCountry.qualite}/100</p>
+      <p>Disponibilité : à partir du mardi 08/09/2020</p>
       <p>{myCountry.descriptif}</p>
       <p>{myCountry.intro}</p>
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <p>Pour prendre rendez-vous, vous pouvez nous contacter au 0505050505.</p>
+      <Email data={myCountry}/>
       <p className="italicMessage">* Tarif de la prestation seule, hors transport et logement.</p>
+      <p className="italicMessage">** Notation par des experts, sur des critères médicaux uniquement.</p>
     </div>
   );
 };
