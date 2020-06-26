@@ -13,7 +13,7 @@ const Results = (props) => {
       <Card.Body>
         <Card.Title>Categorie : {props.type}</Card.Title>
         <Card.Text>Type de soin : {props.soins}</Card.Text>
-        <Card.Text>Notation : {props.qualite}/100</Card.Text>
+        <Card.Text>Qualité des soins : {props.qualite}/100</Card.Text>
         <Card.Text>
           Prix (brut) : {props.price}
           <p className="italicMessage">
