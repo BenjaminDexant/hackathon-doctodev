@@ -9,7 +9,6 @@ app.use(express.json());
 app.use(express.static(buildPath));
 
 app.post('/send', (req, res) => {
-  console.log(req.body.data)
   const {type, nameCountry, soins, price, descriptif, cliniqueName, url_img_pays, city, flag, intro, qualite, doctor} = req.body.data
   try{
     const mailOptions = { 
@@ -55,6 +54,6 @@ app.post('/send', (req, res) => {
     });
   }
 });
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('server start on port 3000');
 });

@@ -35,7 +35,7 @@ export default function Email({ data }){
         NotificationManager.warning('Warning message', 'Close after 3000ms', 3000);
         break;
       default:
-        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 3000);
+        NotificationManager.error('Erreur lors de l\'envoie', 'Veuillez réessayer plus tard', 10000);
         break;
     }
   };
